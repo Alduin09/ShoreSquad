@@ -353,6 +353,7 @@ button {
     overflow: hidden;
     box-shadow: var(--shadow-md);
     background: var(--light-gray);
+    margin-bottom: var(--spacing-xl);
 }
 
 .map-placeholder {
@@ -368,6 +369,30 @@ button {
 .map-placeholder p:first-child {
     font-size: 48px;
     margin-bottom: var(--spacing-md);
+}
+
+.map-info {
+    background: linear-gradient(135deg, #F0F9FF 0%, #F0F4FF 100%);
+    border-left: 4px solid var(--primary-blue);
+    padding: var(--spacing-xl);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-sm);
+}
+
+.map-info h3 {
+    color: var(--primary-blue);
+    margin-bottom: var(--spacing-md);
+    font-size: var(--font-size-lg);
+}
+
+.map-info p {
+    color: var(--dark-charcoal);
+    margin-bottom: var(--spacing-md);
+    line-height: 1.6;
+}
+
+.map-info .btn {
+    margin-top: var(--spacing-md);
 }
 
 /* ========================================
