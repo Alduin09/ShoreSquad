@@ -1,0 +1,65 @@
+{
+  "name": "ShoreSquad",
+  "short_name": "ShoreSquad",
+  "description": "Rally your crew, track weather, and hit the next beach cleanup",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0066CC",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%230066CC' width='192' height='192'/><text y='144' font-size='120' text-anchor='middle' x='96' dominant-baseline='middle'>🌊</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect fill='%230066CC' width='512' height='512'/><text y='384' font-size='320' text-anchor='middle' x='256' dominant-baseline='middle'>🌊</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": [
+    "productivity",
+    "social"
+  ],
+  "shortcuts": [
+    {
+      "name": "Find Cleanup Events",
+      "short_name": "Find Events",
+      "description": "Find nearby beach cleanup events",
+      "url": "/?page=events",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'><rect fill='%23FF6B6B' width='96' height='96'/><text y='72' font-size='60' text-anchor='middle' x='48'>🗺️</text></svg>",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "My Crew",
+      "short_name": "Crew",
+      "description": "View your ShoreSquad crew",
+      "url": "/?page=crew",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'><rect fill='%232D7A4A' width='96' height='96'/><text y='72' font-size='60' text-anchor='middle' x='48'>👥</text></svg>",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 720'><rect fill='%230066CC' width='540' height='720'/><text y='360' font-size='120' text-anchor='middle' x='270' dominant-baseline='middle' fill='white'>ShoreSquad</text></svg>",
+      "sizes": "540x720",
+      "type": "image/svg+xml",
+      "form_factor": "narrow"
+    }
+  ]
+}

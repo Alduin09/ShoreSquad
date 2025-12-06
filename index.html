@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rally your crew, track weather, and hit the next beach cleanup with ShoreSquad - the dope map app for eco-conscious coastal warriors">
+    <meta name="theme-color" content="#0066CC">
+    
+    <title>ShoreSquad - Beach Cleanup Community</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75'>🌊</text></svg>">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'><rect fill='%230066CC' width='180' height='180'/><text y='125' font-size='100' text-anchor='middle' x='90'>🌊</text></svg>">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <span class="logo-icon">🌊</span>
+                    <span class="logo-text">ShoreSquad</span>
+                </div>
+                <nav class="nav-menu">
+                    <a href="#home" class="nav-link active">Home</a>
+                    <a href="#events" class="nav-link">Events</a>
+                    <a href="#crew" class="nav-link">My Crew</a>
+                    <a href="#impact" class="nav-link">Impact</a>
+                </nav>
+                <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Rally Your Crew</h1>
+                <p class="hero-subtitle">Track weather. Hit the beach. Clean it up.</p>
+                <button class="btn btn-primary btn-lg" id="cta-button">Find Events Near You</button>
+            </div>
+            <div class="hero-visual">
+                <div class="wave-animation"></div>
+                <div class="wave-animation wave-2"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="events">
+        <div class="container">
+            <h2>Why You'll Love ShoreSquad</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🗺️</div>
+                    <h3>Find Cleanups</h3>
+                    <p>Discover beach cleanup events near you with our interactive map</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">☀️</div>
+                    <h3>Check Weather</h3>
+                    <p>Real-time weather forecasts to plan your cleanup day perfectly</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">👥</div>
+                    <h3>Build Your Crew</h3>
+                    <p>Connect with other eco-warriors and make cleanup social & fun</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏆</div>
+                    <h3>Track Impact</h3>
+                    <p>Watch your crew's collective impact on coastal communities</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section" id="map">
+        <div class="container">
+            <h2>Events Near You</h2>
+            <div class="map-container" id="map-container">
+                <div class="map-placeholder">
+                    <p>🗺️ Interactive map coming soon</p>
+                    <p>Showing nearby cleanup events</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Make a Difference?</h2>
+            <p>Join thousands of ShoreSquad members cleaning our coastlines</p>
+            <button class="btn btn-secondary btn-lg" id="signup-button">Get Started Today</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>ShoreSquad</h4>
+                    <p>Mobilizing youth for coastal conservation</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#privacy">Privacy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Twitter">𝕏</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="TikTok">🎵</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ShoreSquad. Keeping our coasts clean. 🌊</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/app.js"></script>
+</body>
+</html>
